@@ -7,7 +7,7 @@
   <body>
 <header class="main-header">
 <nav class="main-navigation">
-  <a class="main-header-logo" href="#">
+  <a class="main-header-logo" href="index.html">
     <img src="img/logo.svg"
          class="logo" alt="Device логотип"></a>
   <div class="site-navigation">
@@ -16,7 +16,7 @@
     <a href="search.html">Поиск по сайту</a>
     <img src="img/user.svg" alt="Войти"
          class="user">
-    <a href="login.html">Войти</a>
+    <a class="login-link" href="login.html">Войти</a>
     <img src="img/compare.svg" alt="сравнить"
      class="compare">
     <a href="compare.html">Сравнить</a>
@@ -26,9 +26,18 @@
   </div>
   <ul class="site-navigation">
     <li><a href="catalog.html">Каталог товаров</a></li>
-    <li><a href="delivery.html">Доставка</a></li>
-    <li><a href="warranty.html">Гарантия</a></li>
-    <li><a href="contacts.html">Контакты</a></li>
+    <li><a  classs="button" href="catalog.html">Каталог товаров</a></li>
+    <ul>
+      <li><a href="#">Виртуальная реальность</a></li>
+      <li><a href="#">Моноподы для селфи</a></li>
+      <li><a href="#">Экш-камеры</a></li>
+      <li><a href="#">Фитнес-браслеты</a></li>
+      <li><a href="#">Умные часы</a></li>
+      <li><a href="#">Квадрокоптеры</a></li>
+    </ul>
+    <li><a href="#">Доставка</a></li>
+    <li><a href="#">Гарантия</a></li>
+    <li><a href="#">Контакты</a></li>
   </ul>
   </nav>
   </header>
@@ -55,6 +64,7 @@
 </tr>
 </table>
 <a href="#">Подробнее</a></li>
+<!--кнока чтоб листать слайд?-->
 <li><h2>Худеем правильно!</h2>
         <p>Мотивирующие фитнес-браслеты помогут найти в себе силы
           не пропускать занятия и соблюдать диету</p>
@@ -149,7 +159,8 @@
     <section class="about us">
       <h2>О нас</h2>
       <p>Огромный выбор гаджетов не оставит равнодушным гика, который ксть в каждом из нас.</p>
-      <p>Мы можем доставить вш товар в самые отдаленные точк Росии! DEVICE рабоатет во многих транчпортных компаниях</p>
+      <p>Мы можем доставить вш товар в самые отдаленные точк Росии! DEVICE рабоатет
+        во многих транчпортных компаниях</p>
 <ul class="about us-list">
   <li>Деловые линии</li>
   <li>автотрейдинг</li>
@@ -159,15 +170,53 @@
       </section>
       <section class="contacts">
         <h2>Контакты</h2>
-        <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работрспособность покупки. всякое бывает.</p>
-        <img src="img/map-jpg.jpg"
-             srcset="img/map-jpg@2x.jpg 2x,
-                     img/map-jpg@3x.jpg 3x" alt='Карта'
+        <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить
+          работрспособность покупки. всякое бывает.</p>
+    <img src="img/map-jpg.jpg"
+      srcset="img/map-jpg@2x.jpg 2x,
+              img/map-jpg@3x.jpg 3x" alt="Офис по адресу улица Строителей дом 15, Москва"
              class="mapjpg">
-    <a href="#">Напиши нам</a>
-        </section>
+      </section>
+    <section class="modal modal-map">
+      <h2 class="visually-hidden">Как до нас добраться</h2>
+      <p><img src="img/map-jpg.jpg" width="800" heigth="600"
+        alt="Офис по адресу улица Строителей дом 15, Москва"></p>
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>
+    <p><a href="#">Напишите нам</a></p>
+    <section class="write-us">
+<form class="write-us" action="https://echo.htmlacademy.ru" method="post">
+<p class="write-us">
+  <label for="write-us-name">Ваше имя:</label>
+<input id="write-us-name" tipe="text" name="name" value="" placeholder="Имя Фамилия"></p>
+<p class="write-us">
+  <label for="write-us-email">Ваш e-mail:</label>
+<input id="write-us-email" tipe="text" name="e-mail" value="" placeholder="email@example.com"></p>
+<p class="write-us">
+  <label for="write-us-text">Текс письма:</label>
+<input id="write-us-text" tipe="text" name="text" value="" placeholder="В свободной форме"></p>
+<button class="button" type="submit">Отправить</button>
+<button class="modal-close" type="button">Закрыть</button>
+    </form>
+    </section>
+    <section class="modal modal-login">
+      <h2>Личный кабинет</h2>
+      <p>Введите свой логин и пароль</p>
+       <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+<p><label class="visually-hidden" for="user-login">Логин</label>
+  <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Логин"></p>
+<p><label class="visually-hidden" for="user-password">Пароль</label>
+  <input class="login-icon-password" id="user-password" type="password" placeholder="Пароль"></p>
+<p class="login-password-info">
+<label class="login-checkbox">
+  <input type="checkbox" name="remember">Запомните меня</label>
+  <a class="restore" href="#">Я заюбыл пароль!</a></p>
+  <button class="button" type="submit">Войти</button>
+       </form>
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>
     </main>
-    <footer class="Main-footer">
+  <footer class="Main-footer">
       <img src="img/logo.svg" alt='Device логотип'
            class="logo">
     <div class="site-navigation">
