@@ -7,7 +7,7 @@
   <body>
 <header class="main-header">
 <nav class="main-navigation">
-  <a class="main-header-logo" href="#">
+  <a class="main-header-logo" href="index.html">
     <img src="img/logo.svg"
          class="logo" alt="Device логотип"></a>
          <div class="site-navigation">
@@ -25,20 +25,70 @@
            <a href="basket.html">Корзина</a>
          </div>
   <ul class="site-navigation">
-    <li><a href="catalog.html">Каталог товаров</a></li>
-    <li><a href="delivery.html">Доставка</a></li>
-    <li><a href="warranty.html">Гарантия</a></li>
-    <li><a href="contacts.html">Контакты</a></li>
+    <li><a  classs="button" href="catalog.html">Каталог товаров</a></li>
+    <ul>
+      <li><a href="#">Виртуальная реальность</a></li>
+      <li><a href="#">Моноподы для селфи</a></li>
+      <li><a href="#">Экш-камеры</a></li>
+      <li><a href="#">Фитнес-браслеты</a></li>
+      <li><a href="#">Умные часы</a></li>
+      <li><a href="#">Квадрокоптеры</a></li>
+    </ul>
+    <li><a href="#">Доставка</a></li>
+    <li><a href="#">Гарантия</a></li>
+    <li><a href="#">Контакты</a></li>
   </ul>
   </nav>
   </header>
   <main class="container">
 <h1 class="header">Моноподы для селфи</h1>
 <ul class="breadcrumb">
-  <li><a href="#">Главная</a></li>
-  <li><a href="#">Каталог товаров</a></li>
-  <li class="active"> Моноподы для селфи</li>
-<!--Форма-->
+  <li><a href="index.html">Главная</a></li>
+  <li><a href="catalog.html">Каталог товаров</a></li>
+  <li class="breadcrumbs-current"> Моноподы для селфи</li>
+<section class="filters">
+  <h2 class="visually-hidden">Фильтр</h2>
+  <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+    <fieldset>Стоимость
+<!--ползунок стоимость-->
+      </fieldset>
+  <fieldset>Цвет
+<ul>
+  <li class="filter-option">
+  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
+  name="black"  id="black" checked>
+  <label for="black">Черный</label></li>
+  <li class="filter-option">
+  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
+  name="white"  id="white">
+  <label for="white">Белый</label></li>
+  <li class="filter-option">
+  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
+  name="blue"  id="blue" checked>
+  <label for="blue">Синий</label></li>
+  <li class="filter-option">
+  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
+  name="red"  id="red" checked>
+  <label for="red">Красный</label></li>
+  <li class="filter-option">
+  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
+  name="pinl"  id="pink">
+  <label for="pink">Розовый</label></li>
+</ul>
+      </fieldset>
+    <fieldset><legent>Bluetooth</legent>
+      <li class="filter-option">
+     <input class="visually-hidden filter-input filter-input-radio" type="radio"
+     name="Bluetooth" value="yes" id="filter-Bluetooth">
+    <label for="filter-Bluetooth">Есть</label></li>
+    <li class="filter-option">
+   <input class="visually-hidden filter-input filter-input-radio" type="radio"
+   name="Bluetooth" value="no" id="filter-Bluetooth">
+  <label for="filter-Bluetooth">Нет</label></li>
+</fieldset>
+<button type="submit" class="filter-button button">Показать</button>
+  </form>
+  </section>
 <section class="monopod-types">
   <h4>Сортировка</h4>
   <ul>
@@ -47,8 +97,8 @@
 <li><a href="#">По популярности</a></li>
 </ul>
 <ul>
-  <li>по убыванию</li>
-  <li>по возростанию</li>
+  <li><a href="#">по убыванию</li>
+  <li><a href="#">по возростанию</li>
   </ul>
 </section>
   <ul class="monopod-types">
@@ -65,12 +115,22 @@
      class="item-4jpg">
 <h3>Селфи-палка "Сделуй за мной"</h3><span> 4900р</span></li>
     </ul>
-<a href="#">Назад</a>
-<a href="#">Вперед</a>
+    <button class="button gallery-button gallery-button-back"
+    type="button">Назад</button>
+    <ul >
+      <li><button class="button gallery-button gallery-button-page1"
+          type="button">1</button></li>
+      <li><button class="button gallery-button gallery-button-page2"
+          type="button">2</button></li>
+      <li><button class="button gallery-button gallery-button-page3"
+          type="button">3</button></li>
+  </ul>
+    <button class="button gallery-button gallery-button-next"
+    type="button">Вперед</button>
     </main>
     <footer class="Main-footer">
-      <img src="img/logo.svg" alt='Device'
-           class="logo">
+      <a href="index.html"> <img src="img/logo.svg" alt='Device'
+           class="logo"></a>
     <div class="site-navigation">
               <img src="img/user.svg" alt='Войти'
                    class="user">
