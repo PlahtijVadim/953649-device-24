@@ -24,10 +24,8 @@
      class="cart">
     <a href="basket.html">Корзина</a>
   </div>
-  <ul class="site-navigation">
-    <li><a href="catalog.html">Каталог товаров</a></li>
-    <li><a  classs="button" href="catalog.html">Каталог товаров</a></li>
-    <ul>
+    <a  class="button" href="catalog.html">Каталог товаров</a>
+  <ul class="catalog-navigation">
       <li><a href="#">Виртуальная реальность</a></li>
       <li><a href="#">Моноподы для селфи</a></li>
       <li><a href="#">Экш-камеры</a></li>
@@ -35,6 +33,7 @@
       <li><a href="#">Умные часы</a></li>
       <li><a href="#">Квадрокоптеры</a></li>
     </ul>
+  <ul class="site-navigation">
     <li><a href="#">Доставка</a></li>
     <li><a href="#">Гарантия</a></li>
     <li><a href="#">Контакты</a></li>
@@ -179,22 +178,22 @@
       </section>
     <section class="modal modal-map">
       <h2 class="visually-hidden">Как до нас добраться</h2>
-      <p><img src="img/map-jpg.jpg" width="800" heigth="600"
+      <p><img src="img/map-jpg.jpg" width="800"
         alt="Офис по адресу улица Строителей дом 15, Москва"></p>
       <button class="modal-close" type="button">Закрыть</button>
     </section>
     <p><a href="#">Напишите нам</a></p>
-    <section class="write-us">
+    <section class="write-us"><h2 class="visually-hidden" >Напишите нам</h2>
 <form class="write-us" action="https://echo.htmlacademy.ru" method="post">
 <p class="write-us">
   <label for="write-us-name">Ваше имя:</label>
-<input id="write-us-name" tipe="text" name="name" value="" placeholder="Имя Фамилия"></p>
+<input id="write-us-name" type="text" name="name" value="" placeholder="Имя Фамилия"></p>
 <p class="write-us">
   <label for="write-us-email">Ваш e-mail:</label>
-<input id="write-us-email" tipe="text" name="e-mail" value="" placeholder="email@example.com"></p>
+<input id="write-us-email" type="text" name="e-mail" value="" placeholder="email@example.com"></p>
 <p class="write-us">
   <label for="write-us-text">Текс письма:</label>
-<input id="write-us-text" tipe="text" name="text" value="" placeholder="В свободной форме"></p>
+<input id="write-us-text" type="text" name="text" value="" placeholder="В свободной форме"></p>
 <button class="button" type="submit">Отправить</button>
 <button class="modal-close" type="button">Закрыть</button>
     </form>
