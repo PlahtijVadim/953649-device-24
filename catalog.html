@@ -24,20 +24,20 @@
             class="cart">
            <a href="basket.html">Корзина</a>
          </div>
-  <ul class="site-navigation">
-    <li><a  classs="button" href="catalog.html">Каталог товаров</a></li>
-    <ul>
-      <li><a href="#">Виртуальная реальность</a></li>
-      <li><a href="#">Моноподы для селфи</a></li>
-      <li><a href="#">Экш-камеры</a></li>
-      <li><a href="#">Фитнес-браслеты</a></li>
-      <li><a href="#">Умные часы</a></li>
-      <li><a href="#">Квадрокоптеры</a></li>
-    </ul>
-    <li><a href="#">Доставка</a></li>
-    <li><a href="#">Гарантия</a></li>
-    <li><a href="#">Контакты</a></li>
-  </ul>
+         <a  class="button" href="catalog.html">Каталог товаров</a>
+       <ul class="catalog-navigation">
+           <li><a href="#">Виртуальная реальность</a></li>
+           <li><a href="#">Моноподы для селфи</a></li>
+           <li><a href="#">Экш-камеры</a></li>
+           <li><a href="#">Фитнес-браслеты</a></li>
+           <li><a href="#">Умные часы</a></li>
+           <li><a href="#">Квадрокоптеры</a></li>
+         </ul>
+       <ul class="site-navigation">
+         <li><a href="#">Доставка</a></li>
+         <li><a href="#">Гарантия</a></li>
+         <li><a href="#">Контакты</a></li>
+       </ul>
   </nav>
   </header>
   <main class="container">
@@ -46,6 +46,7 @@
   <li><a href="index.html">Главная</a></li>
   <li><a href="catalog.html">Каталог товаров</a></li>
   <li class="breadcrumbs-current"> Моноподы для селфи</li>
+</ul>
 <section class="filters">
   <h2 class="visually-hidden">Фильтр</h2>
   <form class="filter" method="get" action="https://echo.htmlacademy.ru">
@@ -76,15 +77,18 @@
   <label for="pink">Розовый</label></li>
 </ul>
       </fieldset>
-    <fieldset><legent>Bluetooth</legent>
+    <fieldset>
+      <legend>Bluetooth</legend>
+<ul class="filters-Bluetooth">
       <li class="filter-option">
      <input class="visually-hidden filter-input filter-input-radio" type="radio"
-     name="Bluetooth" value="yes" id="filter-Bluetooth">
-    <label for="filter-Bluetooth">Есть</label></li>
+     name="Bluetooth" value="yes" id="filter-Bluetooth-yes">
+    <label for="filter-Bluetooth-yes">Есть</label></li>
     <li class="filter-option">
    <input class="visually-hidden filter-input filter-input-radio" type="radio"
-   name="Bluetooth" value="no" id="filter-Bluetooth">
-  <label for="filter-Bluetooth">Нет</label></li>
+   name="Bluetooth" value="no" id="filter-Bluetooth-no">
+  <label for="filter-Bluetooth-no">Нет</label></li>
+</ul>
 </fieldset>
 <button type="submit" class="filter-button button">Показать</button>
   </form>
@@ -97,8 +101,8 @@
 <li><a href="#">По популярности</a></li>
 </ul>
 <ul>
-  <li><a href="#">по убыванию</li>
-  <li><a href="#">по возростанию</li>
+  <li><a href="#">по убыванию</a></li>
+  <li><a href="#">по возростанию</a></li>
   </ul>
 </section>
   <ul class="monopod-types">
