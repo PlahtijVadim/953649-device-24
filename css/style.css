@@ -1,0 +1,144 @@
+@font-face {
+font-family:'Gilroylight';
+src: url('web/gilroylight.woff2') format('woff2')
+src: url('web/gilroylight.woff') format('woff')
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family:'Gilroyextrabold';
+src: url('web/gilroyextrabold.woff2') format('woff2')
+src: url('web/gilroyextrabold.woff') format('woff')
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family:'Opensans';
+src: url('web/opensans.woff2') format('woff2')
+src: url('web/opensans.woff') format('woff')
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family:'Opensanslight';
+src: url('web/opensanslight.woff2') format('woff2')
+src: url('web/opensanslight.woff') format('woff')
+font-weight: normal;
+font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+font-family: Gilroy, OpenSans, sans-serif;
+font-size: 15px;
+font-weigth: 300;
+line-heigth: 2;
+text-transform: "uppercase";
+background-color: #ffffff;
+}
+
+a {text-decoration: none;
+  color: #000000;
+}
+
+.main-navigation {
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+background-color: #f7e296;
+}
+
+.catalog-lists,
+.catalog-navigation{
+  list-style: none;
+}
+
+.user-navigation{
+ font-family: OpenSans;
+ font-size: 15px;
+ font-weight: 300;
+ line-height: 2;
+}
+
+.site-navigation{
+font-family: Gilroy;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.33;
+}
+
+.catalog-lists{
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 2.4;
+}
+
+.about-us,
+.contacts{
+font-family: OpenSans;
+ font-size: 15px;
+ font-weight: 300;
+ line-height: 2;
+ color: #464646;
+}
+.about-us h2,
+.contacts h2{
+ font-family: Gilroy;
+ font-size: 47px;
+ font-weight: 800;
+ line-height: 1.02;
+}
+
+.delivery-company{
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 2.5;
+  color: #000000;
+}
+
+.modal{
+  display: none;
+}
+footer{
+ font-family: OpenSans;
+ font-size: 15px;
+ font-weight: 300;
+ line-height: 2.4;
+ color: rgba(255, 255, 255, 0.7);
+ background-color: #464646;
+}
+
+.user-footer{
+ font-family: OpenSans;
+ font-size: 15px;
+ font-weight: 300;
+ line-height: 2.4;
+ color: #000000
+}
+
+.footer-logo,
+.footer-user,
+.footer-compare,
+.footer-cart,
+.logo-html{
+background-color: #ffc600;
+}
+
+.Main-footer{
+  font-family: OpenSans;
+font-size: 15px;
+font-weight: 300;
+line-height: 2.4;
+color: rgba(255, 255, 255, 0.7);
+}
+
+.visually-hidden{
+  display: none;
+}
