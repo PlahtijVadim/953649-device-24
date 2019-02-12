@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>Девайс</title>
+  <link href="">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 <header class="main-header">
@@ -10,7 +13,7 @@
   <a class="main-header-logo" href="index.html">
     <img src="img/logo.svg"
          class="logo" alt="Device логотип"></a>
-  <div class="site-navigation">
+  <div class="user-navigation">
     <img src="img/search.svg" alt="поиск"
          class="search">
     <a href="search.html">Поиск по сайту</a>
@@ -24,8 +27,9 @@
      class="cart">
     <a href="basket.html">Корзина</a>
   </div>
-    <a  class="button" href="catalog.html">Каталог товаров</a>
-  <ul class="catalog-navigation">
+  <div class="site-navigation">
+    <a class="catalog-button" href="catalog.html">Каталог товаров</a>
+  <ul class="catalog-lists">
       <li><a href="#">Виртуальная реальность</a></li>
       <li><a href="#">Моноподы для селфи</a></li>
       <li><a href="#">Экш-камеры</a></li>
@@ -33,11 +37,12 @@
       <li><a href="#">Умные часы</a></li>
       <li><a href="#">Квадрокоптеры</a></li>
     </ul>
-  <ul class="site-navigation">
+  <ul class="catalog-navigation">
     <li><a href="#">Доставка</a></li>
     <li><a href="#">Гарантия</a></li>
     <li><a href="#">Контакты</a></li>
   </ul>
+</div>
   </nav>
   </header>
   <main class="container">
@@ -136,7 +141,7 @@
           <img src="img/credit.svg" alt='кредит'
      class="credit"></li>
       </ul>
-      <ul class="delivery-logos">
+      <ul class="brends">
         <li><img src="img/logo-1-jpg.jpg"
      srcset="img/logo-1-jpg@2x.jpg 2x,
              img/logo-1-jpg@3x.jpg 3x" alt='логотип фирмы лоставки'
@@ -155,17 +160,17 @@
      class="logo-4jpg"></li>
       </ul>
     </div>
-    <section class="about us">
+    <section class="about-us">
       <h2>О нас</h2>
       <p>Огромный выбор гаджетов не оставит равнодушным гика, который ксть в каждом из нас.</p>
       <p>Мы можем доставить вш товар в самые отдаленные точк Росии! DEVICE рабоатет
         во многих транчпортных компаниях</p>
-<ul class="about us-list">
+<ul class="delivery-company">
   <li>Деловые линии</li>
   <li>автотрейдинг</li>
   <li>ЖелДорЭкспедиция</li>
   </ul>
-  <a href=" №">Подробнее о нас</a>
+  <a href="#">Подробнее о нас</a>
       </section>
       <section class="contacts">
         <h2>Контакты</h2>
@@ -183,7 +188,8 @@
       <button class="modal-close" type="button">Закрыть</button>
     </section>
     <p><a href="#">Напишите нам</a></p>
-    <section class="write-us"><h2 class="visually-hidden" >Напишите нам</h2>
+    <section class=" modal write-us">
+    <h2 class="visually-hidden" >Напишите нам</h2>
 <form class="write-us" action="https://echo.htmlacademy.ru" method="post">
 <p class="write-us">
   <label for="write-us-name">Ваше имя:</label>
@@ -216,17 +222,18 @@
     </section>
     </main>
   <footer class="Main-footer">
-      <img src="img/logo.svg" alt='Device логотип'
-           class="logo">
-    <div class="site-navigation">
+    <a class="main-header-logo" href="index.html">
+        <img src="img/logo.svg" alt='Device логотип'
+           class="footer-logo"></a>
+    <div class="user-footer">
               <img src="img/user.svg" alt='Войти'
-                   class="user">
+                   class="footer-user">
               <a href="login.html">Войти</a>
               <img src="img/compare.svg" alt='сравнить'
-               class="compare">
+               class="footer-compare">
               <a href="compare.html">Сравнить</a>
               <img src="img/cart.svg" alt='корзина'
-               class="cart">
+               class="footer-cart">
               <a href="basket.html">Корзина</a>
       </div>
   <p>г. Москва, ул. Строителей, 15</p>
