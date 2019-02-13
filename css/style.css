@@ -45,6 +45,7 @@ background-color: #ffffff;
 a {text-decoration: none;
   color: #000000;
 }
+
 h2{
   font-size: 47px;
   font-weight: 800;
@@ -64,7 +65,14 @@ background-color: #f7e296;
 }
 
 .catalog-lists,
-.catalog-navigation{
+.catalog-navigation,
+.slide,
+.products-catalog,
+.sell,
+.brends,
+.delivery-company,
+.footer-navigation,
+.social{
   list-style: none;
 }
 
@@ -73,6 +81,10 @@ background-color: #f7e296;
  font-size: 15px;
  font-weight: 300;
  line-height: 2;
+}
+
+.seaching{
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .site-navigation{
@@ -119,6 +131,7 @@ font-family: OpenSans;
   color: #000000;
   background-color: #f0c52e;
 }
+
 .good{
   font-family: OpenSans;
   font-size: 15px;
@@ -155,15 +168,16 @@ font-family: OpenSans;
   color: #000000;
 }
 
-.products-catalog{
-  list-style: none;
-}
-
 .img-goods{
   background-color:#f0c52e;
 }
 
-.modal{
+.brends{
+  opacity: 0.2;
+}
+
+.modal,
+.visually-hidden{
   display: none;
 }
 footer{
@@ -171,34 +185,40 @@ footer{
  font-size: 15px;
  font-weight: 300;
  line-height: 2.4;
- color: rgba(255, 255, 255, 0.7);
  background-color: #464646;
 }
 
-.user-footer{
- font-family: OpenSans;
- font-size: 15px;
- font-weight: 300;
- line-height: 2.4;
- color: #000000
+.user-footer a{
+  opacity: 0.7;
+   font-family: OpenSans;
+   font-size: 15px;
+   font-weight: 300;
+   line-height: 2.4;
+   letter-spacing: 0.2px;
+   color: rgba(255, 255, 255, 0.7);
 }
 
-.footer-logo,
-.footer-user,
-.footer-compare,
-.footer-cart,
-.logo-html{
-background-color: #ffc600;
+.footer-navigation{
+ font-family: Gilroy;
+ font-size: 18px;
+ font-weight: 800;
+ line-height: 1.33;
+ letter-spacing: 3.6px;
+ color: #ffffff;
 }
 
-.Main-footer{
+.footer-navigation a{
+  color: #ffffff;
+}
+
+.contacts{
   font-family: OpenSans;
-font-size: 15px;
-font-weight: 300;
-line-height: 2.4;
-color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 2;
+  color: #ffffff;
 }
 
-.visually-hidden{
-  display: none;
+.social{
+  opacity: 0.3;
 }
