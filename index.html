@@ -15,7 +15,7 @@
   <div class="user-navigation">
     <img src="img/search.svg" alt="поиск"
          class="search">
-    <a href="search.html">Поиск по сайту</a>
+    <a class="seaching" href="search.html">Поиск по сайту</a>
     <img src="img/user.svg" alt="Войти"
          class="user">
     <a class="login-link" href="login.html">Войти</a>
@@ -45,7 +45,7 @@
   </nav>
   </header>
   <main class="container">
-    <ul>
+    <ul class="slide">
       <li><h2>Делай селфи, как Бен Стилер!</h2>
       <p class="good">Самая длинная палка для селфи доступна в нашем магазине.
         Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограммов.
@@ -106,22 +106,28 @@
     <nav class="goods-navigation">
       <h2 class="visually-hidden">Каталог товаров</h2>
       <ul class="products-catalog">
-        <li><a href="#"><img  class="img-goods" src="img/popular-1.svg" alt='виртуальная реальность'
-     class="popular-1">Виртуальная рельность</a></li>
-        <li><a href="#"><img class="img-goods" src="img/popular-2.svg" alt='моноподы для селфи'
-     class="popular-2">Моноподы для селфи</a></li>
-        <li><a href="#"><img  class="img-goods" src="img/popular-3.svg" alt='экш-камеры'
-     class="popular-3">Экшн-камеры</a></li>
-        <li><a href='#'><img  class="img-goods" src="img/popular-4.svg" alt='фитнес-браслеты'
-     class="popular-4">Фитнес-браслеты</a></li>
-        <li><a href="#"><img  class="img-goods" src="img/popular-5.svg" alt='умные часы'
-     class="popular-5">Умные часы</a></li>
-        <li><a href="#"><img  class="img-goods" src="img/poppular-6.svg" alt='квадрокоптер'
-     class="poppular-6">Квадрокоптеры</a></li>
+        <li><a href="#"><img  class="img-goods" src="img/popular-1.svg" alt='виртуальная реальность'>
+          Виртуальная рельность</a></li>
+        <li><a href="#"><img class="img-goods" src="img/popular-2.svg" alt='моноподы для селфи'>
+          Моноподы для селфи</a></li>
+        <li><a href="#"><img  class="img-goods" src="img/popular-3.svg" alt='экш-камеры'>
+          Экшн-камеры</a></li>
+        <li><a href='#'><img  class="img-goods" src="img/popular-4.svg" alt='фитнес-браслеты'>
+          Фитнес-браслеты</a></li>
+        <li><a href="#"><img  class="img-goods" src="img/popular-5.svg" alt='умные часы'>
+          Умные часы</a></li>
+        <li><a href="#"><img  class="img-goods" src="img/poppular-6.svg" alt='квадрокоптер'>
+          Квадрокоптеры</a></li>
       </ul>
     </nav>
     <div>
-      <ul>
+      <ul class="user-sell">
+        <li><a href="#">Доставка</a></li>
+        <li><a href="#">Гарантия</a></li>
+        <li><a href="#">Кредит</a></li>
+      </ul>
+
+      <ul class="sell">
         <li><h2>Доставка</h2>
           <p>Мы с удовольствием доставим ваш товар прямо к вашему
           подъезду совершенно бесплатно!Ведь мы неплохо заработаем,
@@ -145,7 +151,7 @@
      srcset="img/logo-1-jpg@2x.jpg 2x,
              img/logo-1-jpg@3x.jpg 3x" alt='логотип фирмы лоставки'
      class="logo-1jpg"></li>
-        <li><img src="img/logo-3-jpg.jpg"
+        <li><img src="img/logo-2-jpg.jpg"
      srcset="img/logo-3-jpg@2x.jpg 2x,
              img/logo-3-jpg@3x.jpg 3x" alt='логотип фирмы лоставки'
      class="logo-3jpg"></li>
@@ -169,7 +175,7 @@
   <li>автотрейдинг</li>
   <li>ЖелДорЭкспедиция</li>
   </ul>
-  <a href="#">Подробнее о нас</a>
+  <a class="more" href="#">Подробнее о нас</a>
       </section>
       <section class="contacts">
         <h2>Контакты</h2>
@@ -186,7 +192,7 @@
         alt="Офис по адресу улица Строителей дом 15, Москва"></p>
       <button class="modal-close" type="button">Закрыть</button>
     </section>
-    <p><a href="#">Напишите нам</a></p>
+    <p><a class="more" href="#">Напишите нам</a></p>
     <section class=" modal write-us">
     <h2 class="visually-hidden" >Напишите нам</h2>
 <form class="write-us" action="https://echo.htmlacademy.ru" method="post">
@@ -221,27 +227,27 @@
     </section>
     </main>
   <footer class="Main-footer">
-    <a class="main-header-logo" href="index.html">
+    <a class="img-footer" href="index.html">
         <img src="img/logo.svg" alt='Device логотип'
            class="footer-logo"></a>
     <div class="user-footer">
-              <img src="img/user.svg" alt='Войти'
+              <img class="img-footer" src="img/user.svg" alt='Войти'
                    class="footer-user">
               <a href="login.html">Войти</a>
-              <img src="img/compare.svg" alt='сравнить'
+              <img class="img-footer" src="img/compare.svg" alt='сравнить'
                class="footer-compare">
               <a href="compare.html">Сравнить</a>
-              <img src="img/cart.svg" alt='корзина'
+              <img class="img-footer" src="img/cart.svg" alt='корзина'
                class="footer-cart">
               <a href="basket.html">Корзина</a>
       </div>
-  <p>г. Москва, ул. Строителей, 15</p>
-  <ul>
+  <p class="contacts">г. Москва, ул. Строителей, 15</p>
+  <ul class="footer-navigation">
   <li><a href="delivery.html">Доставка</a></li>
   <li><a href="warranty.html">Гарантия</a></li>
   <li><a href="contacts.html">Контакты</a></li>
 </ul>
-<p>Тел.:+7(495)495-95-95</p>
+<p class="contacts">Тел.:+7(495)495-95-95</p>
 <section class="footer-social">
   <h2 class="visually-hidden">htmlacademy в соцсетях</h2>
   <ul class="social">
