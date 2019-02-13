@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   <title>Девайс каталог</title>
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   </head>
@@ -13,7 +12,7 @@
   <a class="main-header-logo" href="index.html">
     <img src="img/logo.svg"
          class="logo" alt="Device логотип"></a>
-         <div class="site-navigation">
+         <div class="user-navigation">
            <img src="img/search.svg" alt="поиск" class="search">
            <a href="search.html">Поиск по сайту</a>
            <img src="img/user.svg" alt="Войти" class="user">
@@ -24,8 +23,9 @@
            <img src="img/cart.svg" alt="корзина" class="cart">
            <a href="basket.html">Корзина</a>
          </div>
+    <div class="site-navigation">
          <a  class="button" href="catalog.html">Каталог товаров</a>
-       <ul class="catalog-navigation">
+       <ul class="catalog-lists">
            <li><a href="#">Виртуальная реальность</a></li>
            <li><a href="#">Моноподы для селфи</a></li>
            <li><a href="#">Экш-камеры</a></li>
@@ -33,11 +33,12 @@
            <li><a href="#">Умные часы</a></li>
            <li><a href="#">Квадрокоптеры</a></li>
          </ul>
-       <ul class="site-navigation">
+       <ul class="catalog-navigation">
          <li><a href="#">Доставка</a></li>
          <li><a href="#">Гарантия</a></li>
          <li><a href="#">Контакты</a></li>
        </ul>
+     </div>
   </nav>
   </header>
   <main class="container">
@@ -54,25 +55,25 @@
 <!--ползунок стоимость-->
       </fieldset>
   <fieldset>Цвет
-<ul>
+<ul class="filter-color">
   <li class="filter-option">
-  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
+  <input class="filter-input filter-input-checkbox" type="checkbox"
   name="black"  id="black" checked>
   <label for="black">Черный</label></li>
   <li class="filter-option">
-  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
+  <input class="filter-input filter-input-checkbox" type="checkbox"
   name="white"  id="white">
   <label for="white">Белый</label></li>
   <li class="filter-option">
-  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
+  <input class="filter-input filter-input-checkbox" type="checkbox"
   name="blue"  id="blue" checked>
   <label for="blue">Синий</label></li>
   <li class="filter-option">
-  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
+  <input class="filter-input filter-input-checkbox" type="checkbox"
   name="red"  id="red" checked>
   <label for="red">Красный</label></li>
   <li class="filter-option">
-  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
+  <input class="filter-input filter-input-checkbox" type="checkbox"
   name="pinl"  id="pink">
   <label for="pink">Розовый</label></li>
 </ul>
@@ -81,11 +82,11 @@
       <legend>Bluetooth</legend>
 <ul class="filters-Bluetooth">
       <li class="filter-option">
-     <input class="visually-hidden filter-input filter-input-radio" type="radio"
+     <input class="filter-input filter-input-radio" type="radio"
      name="Bluetooth" value="yes" id="filter-Bluetooth-yes">
     <label for="filter-Bluetooth-yes">Есть</label></li>
     <li class="filter-option">
-   <input class="visually-hidden filter-input filter-input-radio" type="radio"
+   <input class="filter-input filter-input-radio" type="radio"
    name="Bluetooth" value="no" id="filter-Bluetooth-no">
   <label for="filter-Bluetooth-no">Нет</label></li>
 </ul>
@@ -94,7 +95,7 @@
   </form>
   </section>
 <section class="monopod-types">
-  <h4>Сортировка</h4>
+  <h3>Сортировка</h3>
   <ul>
 <li><a href="#">По цене</a></li>
 <li><a href="#">По типу</a></li>
