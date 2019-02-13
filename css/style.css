@@ -1,31 +1,31 @@
 @font-face {
 font-family:'Gilroylight';
-src: url('web/gilroylight.woff2') format('woff2')
-src: url('web/gilroylight.woff') format('woff')
-font-weight: normal;
+src: url('../web/gilroylight.woff2') format('woff2');
+src: url('../web/gilroylight.woff') format('woff');
+font-weight: 300;
 font-style: normal;
 }
 
 @font-face {
 font-family:'Gilroyextrabold';
-src: url('web/gilroyextrabold.woff2') format('woff2')
-src: url('web/gilroyextrabold.woff') format('woff')
-font-weight: bold;
+src: url('../web/gilroyextrabold.woff2') format('woff2');
+src: url('../web/gilroyextrabold.woff') format('woff');
+font-weight: 800;
 font-style: normal;
 }
 
 @font-face {
 font-family:'Opensans';
-src: url('web/opensans.woff2') format('woff2')
-src: url('web/opensans.woff') format('woff')
-font-weight: normal;
+src: url('../web/opensans.woff2') format('woff2');
+src: url('../web/opensans.woff') format('woff');
+font-weight: 300;
 font-style: normal;
 }
 
 @font-face {
 font-family:'Opensanslight';
-src: url('web/opensanslight.woff2') format('woff2')
-src: url('web/opensanslight.woff') format('woff')
+src: url('../web/opensanslight.woff2') format('woff2');
+src: url('../web/opensanslight.woff') format('woff');
 font-weight: normal;
 font-style: normal;
 }
@@ -45,11 +45,21 @@ background-color: #ffffff;
 a {text-decoration: none;
   color: #000000;
 }
+h2{
+  font-size: 47px;
+  font-weight: 800;
+  line-height: 1.02;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
 
 .main-navigation {
-font-size: 16px;
-line-height: 20px;
-color: #000000;
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  color: #000000;
 background-color: #f7e296;
 }
 
@@ -70,6 +80,8 @@ font-family: Gilroy;
 font-size: 18px;
 font-weight: 800;
 line-height: 1.33;
+letter-spacing: 3.6px;
+color: #000000;
 }
 
 .catalog-lists{
@@ -77,6 +89,8 @@ line-height: 1.33;
   font-size: 15px;
   font-weight: 300;
   line-height: 2.4;
+  letter-spacing: 0.2px;
+  color: #000000;
 }
 
 .about-us,
@@ -87,13 +101,6 @@ font-family: OpenSans;
  line-height: 2;
  color: #464646;
 }
-.about-us h2,
-.contacts h2{
- font-family: Gilroy;
- font-size: 47px;
- font-weight: 800;
- line-height: 1.02;
-}
 
 .delivery-company{
   font-family: Gilroy;
@@ -101,6 +108,59 @@ font-family: OpenSans;
   font-weight: 800;
   line-height: 2.5;
   color: #000000;
+}
+
+.more{
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.33;
+  letter-spacing: 3.6px;
+  color: #000000;
+  background-color: #f0c52e;
+}
+.good{
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  color: #464646;
+}
+
+.descriotion-value{
+  font-family: Gilroy;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+.descriotion-name{
+  font-family: OpenSans;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.54;
+  letter-spacing: 0.1px;
+  color: #464646;
+}
+
+.goods-navigation{
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.33;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.products-catalog{
+  list-style: none;
+}
+
+.img-goods{
+  background-color:#f0c52e;
 }
 
 .modal{
