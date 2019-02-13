@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   <title>Девайс</title>
-  <link href="">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   </head>
@@ -48,7 +47,7 @@
   <main class="container">
     <ul>
       <li><h2>Делай селфи, как Бен Стилер!</h2>
-      <p>Самая длинная палка для селфи доступна в нашем магазине.
+      <p class="good">Самая длинная палка для селфи доступна в нашем магазине.
         Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограммов.
       </p>
       <img src="img/slider-1-png.jpg"
@@ -57,20 +56,20 @@
            class="slider-1png">
 <table>
   <tr>
-  <td>8,5 м</td>
-  <td>5 кг</td>
-  <td>Карбон</td>
+  <td class="descriotion-value">8,5 м</td>
+  <td class="descriotion-value">5 кг</td>
+  <td class="descriotion-value">Карбон</td>
 </tr>
 <tr>
-<td>Длина палки</td>
-<td>Вес палки</td>
-<td>материал</td>
+<td class="descriotion-name">Длина палки</td>
+<td class="descriotion-name">Вес палки</td>
+<td class="descriotion-name">материал</td>
 </tr>
 </table>
-<a href="#">Подробнее</a></li>
+<a class="more" href="#">Подробнее</a></li>
 <!--кнока чтоб листать слайд?-->
 <li><h2>Худеем правильно!</h2>
-        <p>Мотивирующие фитнес-браслеты помогут найти в себе силы
+        <p class="good">Мотивирующие фитнес-браслеты помогут найти в себе силы
           не пропускать занятия и соблюдать диету</p>
           <img src="img/slider-2-png.jpg"
                srcset="img/slider-2-png@2x.jpg 2x,
@@ -78,15 +77,15 @@
                class="slider-2png">
 <table>
   <tr>
-    <td>48 часов</td>
+    <td class="descriotion-value">48 часов</td>
   </tr>
   <tr>
-    <td>Без подзарядки</td>
+    <td class="descriotion-name">Без подзарядки</td>
   </tr>
 </table>
-  <a href="#">Подробнее</a></li>
+  <a class="more" href="#">Подробнее</a></li>
 <li><h2>Порхает как бабочка, жалит как пчела!</h2>
-<p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазарем,
+<p class="good">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазарем,
 замаскированным под стандартную камеру.</p>
 <img src="img/slider-3-png.jpg"
      srcset="img/slider-3-png@2x.jpg 2x,
@@ -94,47 +93,47 @@
      class="slider-3png">
      <table>
        <tr>
-         <td>800 м</td>
-         <td>50 м</td>
+         <td class="descriotion-value">800 м</td>
+         <td class="descriotion-value">50 м</td>
        </tr>
        <tr>
-         <td>Дальность полета</td>
-         <td>Радиус поражения</td>
+         <td class="descriotion-name">Дальность полета</td>
+         <td class="descriotion-name">Радиус поражения</td>
        </tr>
      </table>
-<a href="#">Подробнее</a></li>
+<a class="more" href="#">Подробнее</a></li>
 </ul>
-    <nav class="catalog-navigation">
+    <nav class="goods-navigation">
       <h2 class="visually-hidden">Каталог товаров</h2>
       <ul class="products-catalog">
-        <li><a href="#"><img src="img/popular-1.svg" alt='виртуальная реальность'
+        <li><a href="#"><img  class="img-goods" src="img/popular-1.svg" alt='виртуальная реальность'
      class="popular-1">Виртуальная рельность</a></li>
-        <li><a href="#"><img src="img/popular-2.svg" alt='моноподы для селфи'
+        <li><a href="#"><img class="img-goods" src="img/popular-2.svg" alt='моноподы для селфи'
      class="popular-2">Моноподы для селфи</a></li>
-        <li><a href="#"><img src="img/popular-3.svg" alt='экш-камеры'
+        <li><a href="#"><img  class="img-goods" src="img/popular-3.svg" alt='экш-камеры'
      class="popular-3">Экшн-камеры</a></li>
-        <li><a href='#'><img src="img/popular-4.svg" alt='фитнес-браслеты'
+        <li><a href='#'><img  class="img-goods" src="img/popular-4.svg" alt='фитнес-браслеты'
      class="popular-4">Фитнес-браслеты</a></li>
-        <li><a href="#"><img src="img/popular-5.svg" alt='умные часы'
+        <li><a href="#"><img  class="img-goods" src="img/popular-5.svg" alt='умные часы'
      class="popular-5">Умные часы</a></li>
-        <li><a href="#"><img src="img/poppular-6.svg" alt='квадрокоптер'
+        <li><a href="#"><img  class="img-goods" src="img/poppular-6.svg" alt='квадрокоптер'
      class="poppular-6">Квадрокоптеры</a></li>
       </ul>
     </nav>
     <div>
       <ul>
-        <li><h3>Доставка</h3>
+        <li><h2>Доставка</h2>
           <p>Мы с удовольствием доставим ваш товар прямо к вашему
           подъезду совершенно бесплатно!Ведь мы неплохо заработаем,
         поднимая его на этаж.</p>
         <img src="img/delivery.svg" alt='доствка'
      class="delivery"></li>
-        <li><h3>Гарантия</h3>
+        <li><h2>Гарантия</h2>
         <p>Если из-завозгорания купленного унас товара у вс сгорит дом-
         не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
         <img src="img/warranty.svg" alt='гарантия'
      class="warranty"></li>
-        <li><h3>Кредит</h3>
+        <li><h2>Кредит</h2>
           <p>Залезть в долговую яму столо проще!
             Кредитые консультантыподберут для вас наиболее
             выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
