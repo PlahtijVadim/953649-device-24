@@ -17,7 +17,7 @@
            <a class="seaching" href="search.html">Поиск по сайту</a>
            <img src="img/user.svg" alt="Войти" class="user">
            <a href="login.html">Валентин Петухов</a>
-           <button class="button" type="submit">Выйти</button>
+           <button class="button-exit" type="submit">Выйти</button>
            <img src="img/compare.svg" alt="сравнить" class="compare">
            <a href="compare.html">Сравнить</a>
            <img src="img/cart.svg" alt="корзина" class="cart">
@@ -42,19 +42,18 @@
   </nav>
   </header>
   <main class="container">
-<h1 class="header">Моноподы для селфи</h1>
+<h2 class="header">Моноподы для селфи</h2>
 <ul class="breadcrumb">
   <li><a href="index.html">Главная</a></li>
   <li><a href="catalog.html">Каталог товаров</a></li>
   <li class="breadcrumbs-current"> Моноподы для селфи</li>
 </ul>
 <section class="filters">
-  <h2 class="visually-hidden">Фильтр</h2>
+  <h3>Фильтр</h3>
   <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-    <fieldset>Стоимость
-<!--ползунок стоимость-->
+    <fieldset><p class="filter-types">Стоимость</p>
       </fieldset>
-  <fieldset>Цвет
+  <fieldset><p class="filter-types"> Цвет</p>
 <ul class="filter-color">
   <li class="filter-option">
   <input class="filter-input filter-input-checkbox" type="checkbox"
@@ -79,8 +78,8 @@
 </ul>
       </fieldset>
     <fieldset>
-      <legend>Bluetooth</legend>
-<ul class="filters-Bluetooth">
+      <legend><p class="filter-types">Bluetooth</p></legend>
+<ul class="filter-Bluetooth">
       <li class="filter-option">
      <input class="filter-input filter-input-radio" type="radio"
      name="Bluetooth" value="yes" id="filter-Bluetooth-yes">
@@ -91,17 +90,17 @@
   <label for="filter-Bluetooth-no">Нет</label></li>
 </ul>
 </fieldset>
-<button type="submit" class="filter-button button">Показать</button>
+<button type="submit" class="filter-button">Показать</button>
   </form>
   </section>
 <section class="monopod-types">
   <h3>Сортировка</h3>
-  <ul>
+  <ul class="sorting-type">
 <li><a href="#">По цене</a></li>
 <li><a href="#">По типу</a></li>
 <li><a href="#">По популярности</a></li>
 </ul>
-<ul>
+<ul class="sorting-price">
   <li><a href="#">по убыванию</a></li>
   <li><a href="#">по возростанию</a></li>
   </ul>
@@ -109,20 +108,25 @@
   <ul class="monopod-types">
     <li><img src="img/item-1-jpg.jpg" alt='Любительская селфи-палка'
      class="item-1jpg">
-<h3>Любительская селфи-палка</h3><span> 500р</span></li>
+<p class="monopads-name">Любительская селфи-палка</p>
+<span class="monopads-price">500р</span></li>
     <li><img src="img/item-2-jpg.jpg" alt='Профессиональная селфи-палка'
      class="item-2jpg">
-<h3>Профессиональная селфи-палка</h3><span> 1500р</span></li>
+<p class="monopads-name">Профессиональная селфи-палка</p>
+<span class="monopads-price">1500р</span></li>
     <li><img src="img/item-3-jpg.jpg" alt='Непотопляемая селфи-палка'
      class="item-3jpg">
-<h3>Непотопляемая селфи-палка</h3><span> 2500р</span></li>
+<p class="monopads-name">Непотопляемая селфи-палка</p>
+<span class="monopads-price">2500р</span></li>
     <li><img src="img/item-4-jpg.jpg" alt="Селфи-палка Следуй за мной"
      class="item-4jpg">
-<h3>Селфи-палка "Сделуй за мной"</h3><span> 4900р</span></li>
+<p class="monopads-name">Селфи-палка "Сделуй за мной"</p>
+<span class="monopads-price">4900р</span></li>
     </ul>
+    <div class="page">
     <button class="button gallery-button gallery-button-back"
     type="button">Назад</button>
-    <ul >
+    <ul class="pages">
       <li><button class="button gallery-button gallery-button-page1"
           type="button">1</button></li>
       <li><button class="button gallery-button gallery-button-page2"
@@ -132,11 +136,12 @@
   </ul>
     <button class="button gallery-button gallery-button-next"
     type="button">Вперед</button>
+  </div>
     </main>
     <footer class="Main-footer">
       <a href="index.html"> <img src="img/logo.svg" alt='Device'
            class="footer-logo"></a>
-    <div class="site-navigation">
+    <div class="user-footer">
       <img src="img/user.svg" alt='Войти' class="footer-user">
       <a href="login.html">Валентин Петухов</a>
       <button class="button" type="submit">Выйти</button>
@@ -145,13 +150,13 @@
       <img src="img/cart.svg" alt='корзина' class="footer-cart">
       <a href="basket.html">Корзина</a>
       </div>
-  <p>г. Москва, ул. Строителей, 15</p>
-  <ul>
+  <p class="contacts">г. Москва, ул. Строителей, 15</p>
+  <ul class="footer-navigation">
   <li><a href="delivery.html">Доставка</a></li>
   <li><a href="warranty.html">Гарантия</a></li>
   <li><a href="contacts.html">Контакты</a></li>
 </ul>
-<p>Тел.:+7(495)495-95-95</p>
+<p class="contacts">Тел.:+7(495)495-95-95</p>
 <section class="footer-social">
   <h2 class="visually-hidden">htmlacademy в соцсетях</h2>
   <ul class="social">
