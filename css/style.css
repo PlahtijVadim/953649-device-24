@@ -222,3 +222,90 @@ footer{
 .social{
   opacity: 0.3;
 }
+
+.button-exit{
+  opacity: 0.3;
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.breadcrumb{
+  list-style: none;
+}
+
+
+.breadcrumb{
+  opacity: 0.3;
+ font-family: OpenSans;
+ font-size: 14px;
+ font-weight: 300;
+ line-height: 1.71;
+ letter-spacing: 0.1px;
+ color: rgba(0, 0, 0, 0.3);
+}
+
+h3{
+font-family: Gilroy;
+ font-size: 16px;
+ font-weight: 800;
+ line-height: 1.5;
+ letter-spacing: 3.2px;
+ color: #000000;
+}
+
+.filter-color,
+.filter-Bluetooth,
+.sorting-type,
+.sorting-price,
+.monopod-types,
+.pages{
+  list-style: none;
+}
+.filters{
+font-family: OpenSans;
+font-size: 14px;
+font-weight: 300;
+line-height: 2.86;
+letter-spacing: 0.1px;
+color: #000000;
+}
+
+.filter-types{
+font-family: Gilroy;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.33;
+letter-spacing: 0.2px;
+color: #000000;
+}
+
+.filter-button{
+  font-family: Gilroy;
+font-size: 18px;
+font-weight: 800;
+letter-spacing: 3.6px;
+color: #000000;
+background-color: #f0c52e;
+}
+
+.monopads-name{
+font-family: Gilroy;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.33;
+letter-spacing: 0.2px;
+color: #000000;
+}
+
+.monopads-price{
+font-family: Gilroy;
+font-size: 16px;
+font-weight: 300;
+line-height: 1.5;
+letter-spacing: 0.2px;
+color: #464646;
+}
