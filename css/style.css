@@ -1,52 +1,54 @@
 @font-face {
-font-family:'Gilroylight';
-src: url('../web/gilroylight.woff2') format('woff2');
-src: url('../web/gilroylight.woff') format('woff');
-font-weight: 300;
-font-style: normal;
+  font-family:'Gilroy';
+  src: url('../web/gilroylight.woff2') format('woff2');
+  src: url('../web/gilroylight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-font-family:'Gilroyextrabold';
-src: url('../web/gilroyextrabold.woff2') format('woff2');
-src: url('../web/gilroyextrabold.woff') format('woff');
-font-weight: 800;
-font-style: normal;
+  font-family:'Gilroy';
+  src: url('../web/gilroyextrabold.woff2') format('woff2');
+  src: url('../web/gilroyextrabold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
 }
 
 @font-face {
-font-family:'Opensans';
-src: url('../web/opensans.woff2') format('woff2');
-src: url('../web/opensans.woff') format('woff');
-font-weight: 300;
-font-style: normal;
+  font-family:'Opensans';
+  src: url('../web/opensans.woff2') format('woff2');
+  src: url('../web/opensans.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-font-family:'Opensanslight';
-src: url('../web/opensanslight.woff2') format('woff2');
-src: url('../web/opensanslight.woff') format('woff');
-font-weight: normal;
-font-style: normal;
+  font-family:'Opensans';
+  src: url('../web/opensanslight.woff2') format('woff2');
+  src: url('../web/opensanslight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
 }
 
 body {
   margin: 0;
   padding: 0;
 
-font-family: Gilroy, OpenSans, sans-serif;
-font-size: 15px;
-font-weigth: 300;
-line-heigth: 2;
-text-transform: "uppercase";
-background-color: #ffffff;
+  font-family: Gilroy, "Arial Black", sans-serif;
+  font-size: 15px;
+  font-weigth: 300;
+  line-heigth: 2;
+  text-transform: "uppercase";
+  background-color: #ffffff;
 }
 
-a {text-decoration: none;
+a {
+  text-decoration: none;
   color: #000000;
 }
 
-h2{
+h2 {
+  font-family: Gilroy, "Arial Black", sans-serif;
   font-size: 47px;
   font-weight: 800;
   line-height: 1.02;
@@ -55,75 +57,78 @@ h2{
 }
 
 .main-navigation {
-  font-family: OpenSans;
+  font-family: OpenSans, Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 2;
   letter-spacing: 0.2px;
   color: #000000;
-background-color: #f7e296;
+  background-color: #f7e296;
 }
 
-.catalog-lists,
-.catalog-navigation,
-.slide,
-.products-catalog,
-.sell,
-.brends,
-.delivery-company,
-.footer-navigation,
-.social{
-  list-style: none;
+.user-navigation {
+  font-family: OpenSans, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: 0.15px;
 }
 
-.user-navigation{
- font-family: OpenSans;
- font-size: 15px;
- font-weight: 300;
- line-height: 2;
-}
-
-.seaching{
+.seaching {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.site-navigation{
-font-family: Gilroy;
-font-size: 18px;
-font-weight: 800;
-line-height: 1.33;
-letter-spacing: 3.6px;
-color: #000000;
+.site-navigation {
+  font-family: Gilroy, "Arial Black", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.33;
+  letter-spacing: 3.6px;
+  color: #000000;
 }
 
-.catalog-lists{
-  font-family: OpenSans;
+.slide {
+  list-style: none;
+}
+
+.slide h2 {
+  line-height: 1.19;
+}
+
+.catalog-lists {
+  font-family: OpenSans, Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 2.4;
   letter-spacing: 0.2px;
   color: #000000;
+  list-style: none;
+}
+
+.catalog-navigation {
+  list-style: none;
 }
 
 .about-us,
-.contacts{
-font-family: OpenSans;
+.contacts {
+ font-family: OpenSans, Arial, sans-serif;
  font-size: 15px;
  font-weight: 300;
  line-height: 2;
  color: #464646;
 }
 
-.delivery-company{
-  font-family: Gilroy;
+.delivery-company {
+  font-family: Gilroy, "Arial Black", sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 2.5;
   color: #000000;
+  list-style: none;
 }
 
-.more{
-  font-family: Gilroy;
+.more {
+  font-family: Gilroy, "Arial Black", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.33;
@@ -132,8 +137,8 @@ font-family: OpenSans;
   background-color: #f0c52e;
 }
 
-.good{
-  font-family: OpenSans;
+.good {
+  font-family: OpenSans, Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 2;
@@ -141,8 +146,8 @@ font-family: OpenSans;
   color: #464646;
 }
 
-.descriotion-value{
-  font-family: Gilroy;
+.descriotion-value {
+  font-family: Gilroy, "Arial Black", sans-serif;
   font-size: 36px;
   font-weight: 300;
   line-height: 1.33;
@@ -150,8 +155,8 @@ font-family: OpenSans;
   color: #000000;
 }
 
-.descriotion-name{
-  font-family: OpenSans;
+.descriotion-name {
+  font-family: OpenSans, Arial, sans-serif;
   font-size: 13px;
   font-weight: 300;
   line-height: 1.54;
@@ -159,8 +164,8 @@ font-family: OpenSans;
   color: #464646;
 }
 
-.goods-navigation{
-  font-family: Gilroy;
+.goods-navigation {
+  font-family: Gilroy, "Arial Black", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.33;
@@ -168,29 +173,53 @@ font-family: OpenSans;
   color: #000000;
 }
 
-.img-goods{
+.products-catalog {
+  list-style: none;
+}
+
+.user-sell {
+  font-family: Gilroy, "Arial Black", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 3.6px;
+  background: #e5e5e5;
+  list-style: none;
+}
+
+.foruser {
+  background-color: #f0c52e;
+}
+
+.sell {
+  background: #e5e5e5;
+  list-style: none;
+}
+
+
+.img-goods {
   background-color:#f0c52e;
 }
 
-.brends{
+.brends {
   opacity: 0.2;
+  list-style: none;
 }
 
 .modal,
-.visually-hidden{
+.visually-hidden {
   display: none;
 }
-footer{
- font-family: OpenSans;
- font-size: 15px;
- font-weight: 300;
- line-height: 2.4;
- background-color: #464646;
+footer {
+   font-family: OpenSans, Arial, sans-serif;
+   font-size: 15px;
+   font-weight: 300;
+   line-height: 2.4;
+   background-color: #464646;
 }
 
-.user-footer a{
-  opacity: 0.7;
-   font-family: OpenSans;
+.user-footer a {
+   opacity: 0.7;
+   font-family: OpenSans, Arial, sans-serif;
    font-size: 15px;
    font-weight: 300;
    line-height: 2.4;
@@ -198,34 +227,36 @@ footer{
    color: rgba(255, 255, 255, 0.7);
 }
 
-.footer-navigation{
- font-family: Gilroy;
- font-size: 18px;
- font-weight: 800;
- line-height: 1.33;
- letter-spacing: 3.6px;
- color: #ffffff;
+.footer-navigation {
+  font-family: Gilroy, "Arial Black", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.33;
+  letter-spacing: 3.6px;
+  color: #ffffff;
+  list-style: none;
 }
 
-.footer-navigation a{
+.footer-navigation a {
   color: #ffffff;
 }
 
-.contacts{
-  font-family: OpenSans;
+.contacts {
+  font-family: OpenSans, Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 2;
   color: #ffffff;
 }
 
-.social{
+.social {
   opacity: 0.3;
+  list-style: none;
 }
 
-.button-exit{
+.button-exit {
   opacity: 0.3;
-  font-family: OpenSans;
+  font-family: OpenSans, Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 2;
@@ -233,14 +264,14 @@ footer{
   color: rgba(0, 0, 0, 0.3);
 }
 
-.breadcrumb{
+.breadcrumb {
   list-style: none;
 }
 
 
-.breadcrumb{
-  opacity: 0.3;
- font-family: OpenSans;
+.breadcrumb {
+ opacity: 0.3;
+ font-family: OpenSans, Arial, sans-serif;
  font-size: 14px;
  font-weight: 300;
  line-height: 1.71;
@@ -248,8 +279,8 @@ footer{
  color: rgba(0, 0, 0, 0.3);
 }
 
-h3{
-font-family: Gilroy;
+h3 {
+ font-family: Gilroy, "Arial Black", sans-serif;
  font-size: 16px;
  font-weight: 800;
  line-height: 1.5;
@@ -257,55 +288,82 @@ font-family: Gilroy;
  color: #000000;
 }
 
-.filter-color,
-.filter-Bluetooth,
-.sorting-type,
-.sorting-price,
-.monopod-types,
-.pages{
+.filter-color {
   list-style: none;
 }
-.filters{
-font-family: OpenSans;
-font-size: 14px;
-font-weight: 300;
-line-height: 2.86;
-letter-spacing: 0.1px;
-color: #000000;
+
+.filter-Bluetooth {
+  list-style: none;
 }
 
-.filter-types{
-font-family: Gilroy;
-font-size: 18px;
-font-weight: 800;
-line-height: 1.33;
-letter-spacing: 0.2px;
-color: #000000;
+.sorting-type {
+  list-style: none;
 }
 
-.filter-button{
-  font-family: Gilroy;
-font-size: 18px;
-font-weight: 800;
-letter-spacing: 3.6px;
-color: #000000;
-background-color: #f0c52e;
+.sorting-price {
+  list-style: none;
 }
 
-.monopads-name{
-font-family: Gilroy;
-font-size: 18px;
-font-weight: 800;
-line-height: 1.33;
-letter-spacing: 0.2px;
-color: #000000;
+.monopod-types {
+  list-style: none;
 }
 
-.monopads-price{
-font-family: Gilroy;
-font-size: 16px;
-font-weight: 300;
-line-height: 1.5;
-letter-spacing: 0.2px;
-color: #464646;
+.pages {
+  list-style: none;
+}
+
+.filters {
+  font-family: OpenSans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2.86;
+  letter-spacing: 0.1px;
+  color: #000000;
+}
+
+.filter-types {
+  font-family: Gilroy, "Arial Black", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.33;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.filter-button {
+  font-family: Gilroy, "Arial Black", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 3.6px;
+  color: #000000;
+  background-color: #f0c52e;
+}
+
+.sorting-types {
+  font-family: OpenSans, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #000000;
+}
+
+.monopads-name {
+  font-family: Gilroy "Arial Black", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.33;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.monopads-price {
+  font-family: Gilroy, "Arial Black", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: #464646;
+}
+
+.page {
+  background-color: #ebebeb;
 }
