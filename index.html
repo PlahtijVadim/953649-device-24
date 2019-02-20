@@ -9,7 +9,7 @@
   <body>
 <header class="main-header">
 <nav class="main-navigation">
-  <a class="main-header-logo" href="index.html">
+  <a class="header-logo" href="index.html">
     <img src="img/logo.svg"
          class="logo" alt="Device логотип"></a>
   <div class="user-navigation">
@@ -45,6 +45,7 @@
   </nav>
   </header>
   <main class="container">
+    <div class="slides">
     <ul class="slide">
       <li><h2>Делай селфи, как Бен Стилер!</h2>
       <p class="good">Самая длинная палка для селфи доступна в нашем магазине.
@@ -118,21 +119,23 @@
     </button>
   </li>
 </ul>
+</div>
     <nav class="goods-navigation">
       <h2 class="visually-hidden">Каталог товаров</h2>
       <ul class="products-catalog">
+        <!--как сделать прозрачность только для фона?-->
         <li><a href="#"><img  class="img-goods" src="img/popular-1.svg" alt='виртуальная реальность'>
-          Виртуальная рельность</a></li>
+          <p>Виртуальная рельность</p></a></li>
         <li><a href="#"><img class="img-goods" src="img/popular-2.svg" alt='моноподы для селфи'>
-          Моноподы для селфи</a></li>
+          <p>Моноподы для селфи</p></a></li>
         <li><a href="#"><img  class="img-goods" src="img/popular-3.svg" alt='экш-камеры'>
-          Экшн-камеры</a></li>
+          <p>Экшн-камеры</p></a></li>
         <li><a href='#'><img  class="img-goods" src="img/popular-4.svg" alt='фитнес-браслеты'>
-          Фитнес-браслеты</a></li>
+          <p>Фитнес-браслеты</p></a></li>
         <li><a href="#"><img  class="img-goods" src="img/popular-5.svg" alt='умные часы'>
-          Умные часы</a></li>
+          <p>Умные часы</p></a></li>
         <li><a href="#"><img  class="img-goods" src="img/poppular-6.svg" alt='квадрокоптер'>
-          Квадрокоптеры</a></li>
+          <p>Квадрокоптеры</p></a></li>
       </ul>
     </nav>
     <div>
@@ -141,7 +144,6 @@
         <li><a class="foruser" href="#">ГАРАНТИЯ</a></li>
         <li><a class="foruser" href="#">КРЕДИТ</a></li>
       </ul>
-
       <ul class="sell">
         <li><h2>Доставка</h2>
           <p>Мы с удовольствием доставим ваш товар прямо к вашему
@@ -158,8 +160,7 @@
           <p>Залезть в долговую яму столо проще!
             Кредитые консультантыподберут для вас наиболее
             выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
-          <img src="img/credit.svg" alt='кредит'
-     class="credit"></li>
+          <img src="img/credit.svg" alt='кредит' class="credit"></li>
       </ul>
       <ul class="brends">
         <li><img src="img/logo-1-jpg.jpg"
@@ -180,6 +181,7 @@
      class="logo-4jpg"></li>
       </ul>
     </div>
+    <div class="connect">
     <section class="about-us">
       <h2>О нас</h2>
       <p>Огромный выбор гаджетов не оставит равнодушным гика, который ксть в каждом из нас.</p>
@@ -200,15 +202,15 @@
       srcset="img/map-jpg@2x.jpg 2x,
               img/map-jpg@3x.jpg 3x" alt="Офис по адресу улица Строителей дом 15, Москва"
              class="mapjpg">
+       <p><a class="more" href="#">НАПИШИТЕ НАМ</a></p>
       </section>
     <section class="modal modal-map">
       <h2 class="visually-hidden">Как до нас добраться</h2>
       <p><img src="img/map-jpg.jpg" width="800"
         alt="Офис по адресу улица Строителей дом 15, Москва"></p>
       <button class="modal-close" type="button">Закрыть</button>
-    </section>
-    <p><a class="more" href="#">НАПИШИТЕ НАМ</a></p>
-    <section class=" modal write-us">
+      </section>
+      <section class=" modal write-us">
     <h2 class="visually-hidden" >Напишите нам</h2>
 <form class="write-us" action="https://echo.htmlacademy.ru" method="post">
 <p class="write-us">
@@ -240,12 +242,14 @@
        </form>
       <button class="modal-close" type="button">Закрыть</button>
     </section>
+  </div>
     </main>
   <footer class="Main-footer">
+    <div class="footer=top">
     <a href="index.html">
         <img src="img/logo.svg" alt='Device логотип'
            class="footer-logo"></a>
-    <div class="user-footer">
+    <section class="user-footer">
               <img src="img/user.svg" alt='Войти'
                    class="footer-user">
               <a href="login.html">Войти</a>
@@ -255,14 +259,18 @@
               <img src="img/cart.svg" alt='корзина'
                class="footer-cart">
               <a href="basket.html">Корзина</a>
-      </div>
-  <p class="contacts">г. Москва, ул. Строителей, 15</p>
+      </section>
+    </div>
+    <div class="footer-middle">
+  <p class="contact">г. Москва, ул. Строителей, 15</p>
   <ul class="footer-navigation">
   <li><a href="delivery.html">ДОСТАВКА</a></li>
   <li><a href="warranty.html">ГАРАНТИЯ</a></li>
   <li><a href="contacts.html">КОНТАКТЫ</a></li>
 </ul>
-<p class="contacts">Тел.:+7(495)495-95-95</p>
+<p class="contact">Тел.:+7(495)495-95-95</p>
+</div>
+<div class="footer-bottom">
 <section class="footer-social">
   <h2 class="visually-hidden">htmlacademy в соцсетях</h2>
   <ul class="social">
@@ -277,6 +285,7 @@
   <a href="https://htmlacademy.ru/intensive/htmlcss">
     <img src="img/logo-html.svg" alt='html-academy логотип'
      class="logo-html"></a>
+   </div>
       </footer>
     </body>
   </html>
