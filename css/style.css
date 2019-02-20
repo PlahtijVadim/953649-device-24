@@ -47,6 +47,14 @@ a {
   color: #000000;
 }
 
+a:hover {
+  opacity: 0.6;
+}
+
+a:active {
+  opacity:0.3;
+}
+
 h2 {
   font-family: Gilroy, "Arial Black", sans-serif;
   font-size: 47px;
@@ -64,6 +72,9 @@ h2 {
   letter-spacing: 0.2px;
   color: #000000;
   background-color: #f7e296;
+  width: auto;
+  margin: 40px 140px;
+  padding: 0;
 }
 
 .user-navigation {
@@ -87,12 +98,29 @@ h2 {
   color: #000000;
 }
 
+.catalog-lists {
+  display: none;
+}
+
+div:hover .catalog-lists {
+  display: inline;
+}
+
 .slide {
   list-style: none;
 }
 
 .slide h2 {
   line-height: 1.19;
+}
+
+.slides {
+  margin: 0px 230px;
+  padding: 0;
+}
+
+.slides-switches {
+  list-style: none;
 }
 
 .catalog-lists {
@@ -116,7 +144,16 @@ h2 {
  font-weight: 300;
  line-height: 2;
  color: #464646;
-}
+ margin: 95px 139px;
+ }
+
+ .about-us {
+   width: 462px;
+ }
+
+ .connect {
+   display:flex;
+ }
 
 .delivery-company {
   font-family: Gilroy, "Arial Black", sans-serif;
@@ -171,9 +208,12 @@ h2 {
   line-height: 1.33;
   letter-spacing: 0.2px;
   color: #000000;
+  margin: 120px 140px;
+  padding: 0;
 }
 
 .products-catalog {
+  display:flex;
   list-style: none;
 }
 
@@ -197,12 +237,21 @@ h2 {
 
 
 .img-goods {
-  background-color:#f0c52e;
+  background-color: rgba(240, 197, 46, 0.5);
+  width: 160px;
+  height: 160px;
+  margin: 40px;
 }
 
 .brends {
   opacity: 0.2;
   list-style: none;
+  margin: 94px 140px;
+  display: flex;
+}
+
+.brends:hover {
+  opacity: 1;
 }
 
 .modal,
@@ -239,9 +288,10 @@ footer {
 
 .footer-navigation a {
   color: #ffffff;
+  align-items: center;
 }
 
-.contacts {
+.contact {
   font-family: OpenSans, Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -251,7 +301,20 @@ footer {
 
 .social {
   opacity: 0.3;
+  display: flex;
   list-style: none;
+}
+
+.footer-top {
+  display:flex;
+}
+
+.footer-middle {
+  display:flex;
+}
+
+.footer-buttom {
+  display:flex;
 }
 
 .button-exit {
@@ -267,7 +330,6 @@ footer {
 .breadcrumb {
   list-style: none;
 }
-
 
 .breadcrumb {
  opacity: 0.3;
@@ -288,6 +350,19 @@ h3 {
  color: #000000;
 }
 
+.main-page {
+  display: flex;
+}
+
+.monopod-types {
+  display: flex;
+}
+
+.filters {
+  width: 467px;
+background-color: #ebebeb;
+}
+
 .filter-color {
   list-style: none;
 }
@@ -306,6 +381,12 @@ h3 {
 
 .monopod-types {
   list-style: none;
+  display: flex;
+}
+
+.item-jpg {
+  padding: 0px;
+  margin: 40px;
 }
 
 .pages {
