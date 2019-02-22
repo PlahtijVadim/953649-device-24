@@ -359,6 +359,7 @@ h3 {
 }
 
 .sorting {
+  width: 1479px;
   display: flex;
   background-color: #ebebeb;
 }
@@ -385,19 +386,24 @@ display: flex;
   list-style: none;
 }
 
+.monopods {
+  width: 1000px;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
 .monopod-types {
+  width: 1439px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
-.monopods {
-  width: 1439px;
-  min-height: 1070px;
-  display: flex;
+.monopod-item {
   list-style: none;
-  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
@@ -407,6 +413,7 @@ display: flex;
 }
 
 .page {
+  width: 1479px;
   display: flex;
 }
 
