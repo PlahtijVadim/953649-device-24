@@ -388,6 +388,7 @@ display: flex;
 .monopods {
   display: flex;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .monopod-types {
