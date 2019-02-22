@@ -313,7 +313,7 @@ footer {
   display:flex;
 }
 
-.footer-buttom {
+.footer-bottom {
   display:flex;
 }
 
@@ -352,15 +352,21 @@ h3 {
 
 .main-page {
   display: flex;
-}
+  }
 
 .monopod-types {
   display: flex;
 }
 
+.sorting {
+  display: flex;
+  background-color: #ebebeb;
+}
+
 .filters {
-  width: 467px;
+width: 467px;
 background-color: #ebebeb;
+display: flex;
 }
 
 .filter-color {
@@ -380,9 +386,8 @@ background-color: #ebebeb;
 }
 
 .monopods {
-  list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  list-style: none;
 }
 
 .monopod-types {
@@ -395,6 +400,10 @@ background-color: #ebebeb;
 .item-jpg {
   padding: 0px;
   margin: 40px;
+}
+
+.page {
+  display: flex;
 }
 
 .pages {
