@@ -13,18 +13,27 @@
     <img src="img/logo.svg"
          class="logo" alt="Device логотип"></a>
          <div class="user-navigation">
+           <div class="menu item1">
            <img src="img/search.svg" alt="поиск" class="search">
            <a class="seaching" href="search.html">Поиск по сайту</a>
+         </div>
+         <div class="menu item2">
            <img src="img/user.svg" alt="Войти" class="user">
            <a href="login.html">Валентин Петухов</a>
            <button class="button-exit" type="submit">Выйти</button>
+         </div>
+          <div class="menu item3">
            <img src="img/compare.svg" alt="сравнить" class="compare">
            <a href="compare.html">Сравнить</a>
+         </div>
+         <div class="menu item4">
            <img src="img/cart.svg" alt="корзина" class="cart">
            <a href="basket.html">Корзина</a>
          </div>
+       </div>
     <div class="site-navigation">
-         <a  class="button" href="catalog.html">КАТАЛОГ ТОВАРОВ</a>
+      <ul class="catalog-navigation">
+        <li class="catalog-menu"><a href="catalog.html">КАТАЛОГ ТОВАРОВ</a></li>
        <ul class="catalog-lists">
            <li><a href="#">Виртуальная реальность</a></li>
            <li><a href="#">Моноподы для селфи</a></li>
@@ -32,11 +41,10 @@
            <li><a href="#">Фитнес-браслеты</a></li>
            <li><a href="#">Умные часы</a></li>
            <li><a href="#">Квадрокоптеры</a></li>
-         </ul>
-       <ul class="catalog-navigation">
-         <li><a href="#">ДОСТАВКА</a></li>
-         <li><a href="#">ГАРАНТИЯ</a></li>
-         <li><a href="#">КОНТАКТЫ</a></li>
+       </ul>
+         <li class="catalog-menu"><a href="#">ДОСТАВКА</a></li>
+         <li class="catalog-menu"><a href="#">ГАРАНТИЯ</a></li>
+         <li class="catalog-menu"><a href="#">КОНТАКТЫ</a></li>
        </ul>
      </div>
   </nav>
@@ -130,6 +138,7 @@
     <section class="page">
     <button class="button gallery-button gallery-button-back"
     type="button">НАЗАД</button>
+  <div class="pages-button">
     <ul class="pages">
       <li><button class="button gallery-button gallery-button-page1"
           type="button">1</button></li>
@@ -137,7 +146,8 @@
           type="button">2</button></li>
       <li><button class="button gallery-button gallery-button-page3"
           type="button">3</button></li>
-  </ul>
+    </ul>
+  </div>
     <button class="button gallery-button gallery-button-next"
     type="button">ВПЕРЕД</button>
   </section>
@@ -148,34 +158,51 @@
       <a href="index.html"> <img src="img/logo.svg" alt='Device'
            class="footer-logo"></a>
     <section class="user-footer">
+      <div class="footer-menu">
       <img src="img/user.svg" alt='Войти' class="footer-user">
       <a href="login.html">Валентин Петухов</a>
       <button class="button" type="submit">Выйти</button>
+    </div>
+    <div class="footer-menu">
       <img src="img/compare.svg" alt='сравнить' class="footer-compare">
       <a href="compare.html">Сравнить</a>
+    </div>
+    <div class="footer-menu">
       <img src="img/cart.svg" alt='корзина' class="footer-cart">
       <a href="basket.html">Корзина</a>
+    </div>
     </section>
       </div>
       <div class="footer-middle">
   <p class="contact">г. Москва, ул. Строителей, 15</p>
   <ul class="footer-navigation">
-  <li><a href="delivery.html">ДОСТАВКА</a></li>
-  <li><a href="warranty.html">ГАРАНТИЯ</a></li>
-  <li><a href="contacts.html">КОНТАКТЫ</a></li>
+  <li class="footer-item"><a href="delivery.html">ДОСТАВКА</a></li>
+  <li class="footer-item"<a href="warranty.html">ГАРАНТИЯ</a></li>
+  <li class="footer-item"><a href="contacts.html">КОНТАКТЫ</a></li>
 </ul>
 <p class="contact">Тел.:+7(495)495-95-95</p>
 </div>
 <div class="footer-bottom">
+  <div class="line">1
+  </div>
 <section class="footer-social">
   <h2 class="visually-hidden">htmlacademy в соцсетях</h2>
   <ul class="social">
-  <li><a href="https://www.facebook.com/htmlacademy"> <img src="img/invalid-name.svg" alt="facebook"
-       class="layer"></a></li>
-  <li><a href="https://www.instagram.com/htmlacademy/"><img src="img/invalid-name.svg" alt="instagram"
-       class="layer"></a></li>
-  <li><a href="https://twitter.com/htmlacademy_ru"><img src="img/invalid-name.svg" alt="twitter"
-        class="layer"></a></li>
+  <li class="social-page">
+    <a href="https://www.facebook.com/htmlacademy">
+       <img src="img/invalid-name.svg" alt="facebook" class="layer">
+     </a>
+     </li>
+  <li class="social-page">
+    <a href="https://www.instagram.com/htmlacademy/">
+      <img src="img/invalid-name.svg" alt="instagram" class="layer">
+     </a>
+   </li>
+  <li class="social-page">
+    <a href="https://twitter.com/htmlacademy_ru">
+      <img src="img/invalid-name.svg" alt="twitter" class="layer">
+    </a>
+  </li>
       </ul>
   </section>
   <a href="https://htmlacademy.ru/intensive/htmlcss">
