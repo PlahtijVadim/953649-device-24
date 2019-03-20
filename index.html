@@ -9,7 +9,7 @@
   <body>
 <header class="main-header">
 <nav class="main-navigation">
-  <a class="header-logo" href="index.html">
+  <a class="header-logo" href="#">
     <img src="img/logo.svg"
          class="logo" alt="Device логотип"></a>
          <div class="user-navigation">
@@ -47,7 +47,8 @@
         <li><a href="#">Квадрокоптеры</a></li>
       </ul>
     <ul class="catalog-navigation">
-    <li class="catalog-menu"><a href="#">КАТАЛОГ ТОВАРОВ</a></li>
+    <li class="catalog-menu"><a href="#">КАТАЛОГ ТОВАРОВ</a>
+      <img src="img/plus.svg" class="plus" alt=""></li>
     <li class="catalog-menu"><a href="#">ДОСТАВКА</a></li>
     <li class="catalog-menu"><a href="#">ГАРАНТИЯ</a></li>
     <li class="catalog-menu"><a href="#">КОНТАКТЫ</a></li>
@@ -60,12 +61,12 @@
    <input class="visually-hidden" type="radio" id="product-2" name="toggle">
    <input class="visually-hidden" type="radio" id="product-3" name="toggle">
     <div class="slides">
-      <div class="container2">
+      <div class="container">
         <header class="main-header"></header>
           <div class="slider-controls">
-            <label for="product-1">Первый</label>
-            <label for="product-2">Второй</label>
-            <label for="product-3">Третий</label>
+            <label for="product-1"></label>
+            <label for="product-2"></label>
+            <label for="product-3"></label>
           </div>
     <ul class="slide">
       <li class="slider-item slide" id="slide1">
@@ -75,10 +76,10 @@
            </div>
            <div class="slider-text">
         <h3 class="slide-title">
-          Делай селфи,<br> как Бен Стилер!
+          Делай селфи,<br> как Бен Стиллер!
         </h3>
       <p class="good">Самая длинная палка для селфи доступна в нашем магазине.<br>
-        Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограммов.
+        Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
       </p>
   <a class="button slide-button" href="#">ПОДРОБНЕЕ</a>
   <section class="table">
@@ -134,7 +135,6 @@
 <p class="good">Этот обычный, на первый взгляд, квадрокоптер оснащен<br>
    мощным лазарем, замаскированным под стандартную камеру.</p>
      <a class="button slide-button" href="#">ПОДРОБНЕЕ</a>
-     <!--кнока чтоб листать слайд?-->
      <section class="table">
      <table>
        <tr>
@@ -152,80 +152,65 @@
 </ul>
 </div>
 </div>
-<section class="">
+<section class="product-menu">
       <h2 class="visually-hidden">Каталог товаров</h2>
       <ul class="products-catalog">
-        <!--как сделать прозрачность только для фона?-->
         <li class="products-item">
           <a href="#">
-        <div class="navi-catalog">
           <img  class="img-goods" src="img/popular-1.svg" alt='виртуальная реальность'>
-        </div>
-          <p>Виртуальная рельность</p>
         </a>
       </li>
         <li class="products-item">
           <a href="#">
-          <div class="navi-catalog">
           <img class="img-goods" src="img/popular-2.svg" alt='моноподы для селфи'>
-          </div>
-          <p>Моноподы для селфи</p>
         </a>
       </li>
         <li class="products-item">
           <a href="#">
-          <div class="navi-catalog">
           <img  class="img-goods" src="img/popular-3.svg" alt='экш-камеры'>
-          </div>
-          <p>Экшн-камеры</p>
         </a>
       </li>
         <li class="products-item">
           <a href='#'>
-          <div class="navi-catalog">
           <img  class="img-goods" src="img/popular-4.svg" alt='фитнес-браслеты'>
-          </div>
-          <p>Фитнес-браслеты</p>
         </a>
       </li>
         <li class="products-item">
           <a href="#">
-          <div class="navi-catalog">
           <img  class="img-goods" src="img/popular-5.svg" alt='умные часы'>
-          </div>
-          <p>Умные часы</p>
         </a>
       </li>
         <li class="products-item">
           <a href="#">
-          <div class="navi-catalog">
           <img  class="img-goods" src="img/poppular-6.svg" alt='квадрокоптер'>
-          </div>
-          <p>Квадрокоптеры</p>
         </a>
       </li>
+      </ul>
+      <ul class="products-text">
+        <li><p class="item-text">Виртуальная <br>реальность</p></li>
+        <li><p class="item-text">Моноподы <br>для селфи</p></li>
+        <li><p class="item-text">Экшн-камеры</p></li>
+        <li><p class="item-text">Фитнес-браслеты</p></li>
+        <li><p class="item-text">Умные часы</p></li>
+        <li><p class="item-text">Квадрокоптеры</p></li>
       </ul>
     </section>
     <div class="slide2">
       <div class="slides-container">
+        <div class="slider-control">
       <ul class="user-sell">
-        <li class="foruser">
-          <a href="#">ДОСТАВКА</a>
-        </li>
-        <li class="foruser">
-          <a href="#">ГАРАНТИЯ</a>
-        </li>
-        <li class="foruser">
-          <a href="#">КРЕДИТ</a>
-        </li>
+        <li class="foruser"><a href="#">ДОСТАВКА</a></li>
+        <li class="foruser"><a href="#">ГАРАНТИЯ</a></li>
+        <li class="foruser"><a href="#">КРЕДИТ</a></li>
       </ul>
+      </div>
       <ul class="sell">
         <li class="slides-page">
           <div class="slides-blok">
           <h3 class="slide-title2">Доставка</h3>
-          <p>Мы с удовольствием доставим ваш товар прямо к вашему<br>
+          <p class="words">Мы с удовольствием доставим ваш товар прямо к вашему<br>
           подъезду совершенно бесплатно!Ведь мы неплохо<br> заработаем,
-        поднимая его на этаж.</p>
+        поднимая его на ваш этаж.</p>
       </div>
         <img src="img/delivery.svg" alt='доствка'
      class="delivery">
@@ -233,20 +218,20 @@
         <li class="slides-page">
           <div class="slides-blok">
           <h3 class="slide-title2">Гарантия</h3>
-        <p>Если из-завозгорания купленного унас товара у вс сгорит<br> дом-
+        <p class="words">Если из-завозгорания купленного унас товара у вс сгорит<br> дом-
         не переживайте, мы выдадим вам новый.<br> Товар, не дом, конечно же.</p>
       </div>
         <img src="img/warranty.svg" alt='гарантия'
-     class="warranty">
+     class="delivery">
    </li>
         <li class="slides-page">
           <div class="slides-blok">
           <h3 class="slide-title2">Кредит</h3>
-          <p>Залезть в долговую яму столо проще!
+          <p class="words">Залезть в долговую яму столо проще!
             Кредитные<br> консультанты подберут для вас наиболее
             выгодные<br> условия кредита. Выгодные для нашего банка, разумеется.</p>
           </div>
-          <img src="img/credit.svg" alt='кредит' class="credit">
+          <img src="img/credit.svg" alt='кредит' class="delivery">
         </li>
       </ul>
     </div>
@@ -266,24 +251,25 @@
     <div class="connect">
     <section class="about-us">
 <div class="delivery-about">
-      <h2>О нас</h2>
-      <p class="choose">Огромный выбор гаджетов не оставит равнодушным гика, который ксть в каждом из нас.</p>
-      <p>Мы можем доставить ваш товар в самые отдаленные точки Росии! DEVICE рабоатет
-        во многих транчпортных компаниях</p>
+      <h2 class="connect-title">О нас</h2>
+      <p class="connect-text 1">Огромный выбор гаджетов не оставит равнодушным гика,<br>
+         который ксть в каждом из нас.</p>
+      <p class="connect-text">Мы можем доставить ваш товар в самые отдаленные точки<br>
+         Росии! DEVICE рабоатет во многих транчпортных компаниях</p>
 <ul class="delivery-company">
   <li>Деловые линии</li>
   <li>автотрейдинг</li>
   <li>ЖелДорЭкспедиция</li>
   </ul>
 </div>
-  <a class="more" href="#">ПОДРОБНЕЕ О НАС</a>
+<div class="else"><a class="more" href="#">ПОДРОБНЕЕ О НАС</a></div>
       </section>
       <section class="contacts">
-        <h2>Контакты</h2>
-        <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете<br>
+        <h2 class="connect-title">Контакты</h2>
+        <p class="connect-text">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете<br>
           проверить работрспособность покупки. всякое бывает.</p>
     <img src="img/map-jpg.jpg" alt="Офис по адресу улица Строителей дом 15, Москва" class="mapjpg">
-       <p><a class="more" href="#">НАПИШИТЕ НАМ</a></p>
+       <div class="also"><a class="more" href="#">НАПИШИТЕ НАМ</a></div>
       </section>
     <section class="modal modal-map">
       <h2 class="visually-hidden">Как до нас добраться</h2>
@@ -326,56 +312,57 @@
   </div>
     </main>
   <footer class="Main-footer">
+    <div class="footer-container">
     <div class="footer-top">
-    <a href="index.html">
-        <img src="img/logo.svg" alt='Device логотип'
+    <a href="#">
+        <img src="img/logo-footer.svg" alt='Device логотип'
            class="footer-logo"></a>
     <section class="user-footer">
             <div class="footer-menu">
-              <img src="img/user.svg" alt='Войти'
-                   class="footer-user">
+              <img src="img/user-footer.svg" alt='Войти'
+                   class="footer-icon">
               <a href="login.html">Войти</a>
             </div>
             <div class="footer-menu">
-              <img src="img/compare.svg" alt='сравнить'
-               class="footer-compare">
+              <img src="img/compare-footer.svg" alt='сравнить'
+               class="footer-icon">
               <a href="compare.html">Сравнить</a>
             </div>
             <div class="footer-menu">
-              <img src="img/cart.svg" alt='корзина'
-               class="footer-cart">
+              <img src="img/cart-footer.svg" alt='корзина'
+               class="footer-icon">
               <a href="basket.html">Корзина</a>
             </div>
       </section>
     </div>
     <div class="footer-middle">
-  <p class="contact">г. Москва, ул. Строителей, 15</p>
+  <p class="contact 1">г. Москва, ул. Строителей, 15</p>
   <ul class="footer-navigation">
   <li class="footer-item"><a href="delivery.html">ДОСТАВКА</a></li>
   <li class="footer-item"><a href="warranty.html">ГАРАНТИЯ</a></li>
   <li class="footer-item"><a href="contacts.html">КОНТАКТЫ</a></li>
 </ul>
-<p class="contact">Тел.:+7(495)495-95-95</p>
+<p class="contact 2">Тел.:+7(495)495-95-95</p>
 </div>
 <div class="footer-bottom">
-  <div class="line">1
+  <div class="line">
   </div>
 <section class="footer-social">
   <h2 class="visually-hidden">htmlacademy в соцсетях</h2>
   <ul class="social">
     <li class="social-page">
       <a href="https://www.facebook.com/htmlacademy">
-        <img src="img/invalid-name.svg" alt="facebook" class="layer">
+        <img src="img/invalid-name1.svg" alt="facebook" class="layer">
       </a>
     </li>
     <li class="social-page">
       <a href="https://www.instagram.com/htmlacademy/">
-        <img src="img/invalid-name.svg" alt="instagram" class="layer">
+        <img src="img/invalid-name2.svg" alt="instagram" class="layer">
       </a>
     </li>
     <li class="social-page">
       <a href="https://twitter.com/htmlacademy_ru">
-        <img src="img/invalid-name.svg" alt="twitter" class="layer">
+        <img src="img/invalid-name3.svg" alt="twitter" class="layer">
       </a>
     </li>
       </ul>
@@ -384,6 +371,7 @@
     <img src="img/logo-html.svg" alt='html-academy логотип'
      class="logo-html"></a>
    </div>
+ </div>
       </footer>
     </body>
   </html>
