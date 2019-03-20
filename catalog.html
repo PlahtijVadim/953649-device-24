@@ -8,25 +8,25 @@
   </head>
   <body>
 <header class="main-header">
-<nav class="main-navigation">
+<nav class="main-navi">
   <a class="main-header-logo" href="index.html">
     <img src="img/logo.svg"
          class="logo" alt="Device логотип"></a>
-         <div class="user-navigation">
-           <div class="menu item1">
+         <div class="user-navi">
+           <div class="menu-items1">
            <img src="img/search.svg" alt="поиск" class="search">
            <a class="seaching" href="search.html">Поиск по сайту</a>
          </div>
-         <div class="menu item2">
-           <img src="img/user.svg" alt="Войти" class="user">
+         <div class="menu-items2">
+           <img src="img/user.svg" alt="Войти" class="user1">
            <a href="login.html">Валентин Петухов</a>
-           <button class="button-exit" type="submit">Выйти</button>
+           <a href="#" class="button-exit">Выйти</a>
          </div>
-          <div class="menu item3">
-           <img src="img/compare.svg" alt="сравнить" class="compare">
+          <div class="menu-items3">
+           <img src="img/compare.svg" alt="сравнить" class="compares">
            <a href="compare.html">Сравнить</a>
          </div>
-         <div class="menu item4">
+         <div class="menu-items4">
            <img src="img/cart.svg" alt="корзина" class="cart">
            <a href="basket.html">Корзина</a>
          </div>
@@ -48,20 +48,36 @@
        </ul>
      </div>
   </nav>
-  </header>
-  <main class="container">
-<h2 class="header">Моноподы для селфи</h2>
+</header>
+<main class="container">
+  <div class="contant">
+<h2 class="head">Моноподы для селфи</h2>
 <ul class="breadcrumb">
   <li><a href="index.html">Главная</a></li>
+  <li><img src="img/nav-arrow.svg" class="nav-arrow"></li>
   <li><a href="catalog.html">Каталог товаров</a></li>
-  <li class="breadcrumbs-current"> Моноподы для селфи</li>
+  <li><img src="img/nav-arrow.svg" class="nav-arrow"></li>
+  <li> Моноподы для селфи</li>
 </ul>
 <div class="main-page">
 <section class="filters">
   <h3 class="filter-title">ФИЛЬТР</h3>
   <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-    <fieldset><p class="filter-types">Стоимость</p>
-      </fieldset>
+    <body>
+    <div class="filter-range">
+      <div class="filter-range-title">Стоимость</div>
+      <div class="range-controls">
+        <div class="scale">
+          <div class="bar"></div>
+        </div>
+      <div class="price-controls">
+        <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+        <label class="max-price">до <input type="text" name="max-price" value="5000"></label>
+      </div>
+        <div class="range-toggle range-toggle-min"></div>
+        <div class="range-toggle range-toggle-max"></div>
+      </div>
+    </div>
   <fieldset><p class="filter-types"> Цвет</p>
 <ul class="filter-color">
   <li class="filter-option">
@@ -155,10 +171,12 @@
   </section>
   </div>
 </div>
+</div>
     </main>
     <footer class="Main-footer">
+      <div class="footer-contain">
       <div class="footer-top">
-      <a href="index.html"> <img src="img/logo.svg" alt='Device'
+      <a href="index.html"> <img src="img/logo-footer.svg" alt='Device'
            class="footer-logo"></a>
     <section class="user-footer">
       <div class="footer-menu">
@@ -193,17 +211,17 @@
   <ul class="social">
   <li class="social-page">
     <a href="https://www.facebook.com/htmlacademy">
-       <img src="img/invalid-name.svg" alt="facebook" class="layer">
+       <img src="img/invalid-name1.svg" alt="facebook" class="layer">
      </a>
      </li>
   <li class="social-page">
     <a href="https://www.instagram.com/htmlacademy/">
-      <img src="img/invalid-name.svg" alt="instagram" class="layer">
+      <img src="img/invalid-name2.svg" alt="instagram" class="layer">
      </a>
    </li>
   <li class="social-page">
     <a href="https://twitter.com/htmlacademy_ru">
-      <img src="img/invalid-name.svg" alt="twitter" class="layer">
+      <img src="img/invalid-name3.svg" alt="twitter" class="layer">
     </a>
   </li>
       </ul>
@@ -212,6 +230,7 @@
     <img src="img/logo-html.svg" alt='html-academy логотип'
      class="logo-html"></a>
    </div>
+ </div>
       </footer>
     </body>
   </html>
