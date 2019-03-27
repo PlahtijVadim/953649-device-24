@@ -1974,3 +1974,38 @@ li.catalog-nav-next {
 .catalog-nav-next .nav-prev-next:active,.catalog-nav-prev .nav-prev-next:active {
   color: rgba(0,0,0,0.3);
 }
+
+@keyframes modal-open{
+    0%{
+        -webkit-transform:translate(-200%,-50%) skewX(45deg);
+        -ms-transform:translate(-200%,-50%) skewX(45deg);
+        transform:translate(-200%,-50%) skewX(45deg)
+    }
+    80%{
+        -webkit-transform:translate(-40%,-50%) skew(5deg);
+        -ms-transform:translate(-40%,-50%) skew(5deg);
+        transform:translate(-40%,-50%) skew(5deg)
+    }
+    to{
+        -webkit-transform:translate(-50%,-50%) skew(0deg);
+        -ms-transform:translate(-50%,-50%) skew(0deg);
+        transform:translate(-50%,-50%) skew(0deg)
+    }
+}
+@keyframes shake{
+    0%,to{
+        -webkit-transform:translate(-50%,-50%);
+        -ms-transform:translate(-50%,-50%);
+        transform:translate(-50%,-50%)
+    }
+    10%,30%,50%,70%,90%{
+        -webkit-transform:translate(-51%,-50%);
+        -ms-transform:translate(-51%,-50%);
+        transform:translate(-51%,-50%)
+    }
+    20%,40%,60%,80%{
+        -webkit-transform:translate(-49%,-50%);
+        -ms-transform:translate(-49%,-50%);
+        transform:translate(-49%,-50%)
+    }
+}
