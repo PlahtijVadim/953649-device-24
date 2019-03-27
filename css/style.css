@@ -37,17 +37,6 @@ body {
   font-style: normal;
 }
 
-h1,h2 {
-  font-family: "Gilroy", "Arial", sans-serif;
-  font-size:47px;
-  font-weight: 800;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.19;
-  letter-spacing: 0.5px;
-  text-align: left;
-  color: #000000;
-}
 
 body>input[type=radio] {
   display: none
@@ -799,7 +788,7 @@ a.exit.header {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: -40px;
+  top: -38px;
   display: none;
   float: right;
   width: 715px;
@@ -824,12 +813,24 @@ a.exit.header {
   background-position: 543px 1px;
 }
 
+.services-item h2 {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 47px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.02;
+  letter-spacing: 0.5px;
+  color: #000000;
+  margin-top: 3px;
+}
+
 .services-item h2,.services-item p {
   float: left;
   width: 440px;
   margin-top: 0;
-  margin-bottom: 26px;
-  letter-spacing: .018em;
+  margin-bottom: 32px;
+  letter-spacing: 0.5px;
 }
 
 .services-item p {
@@ -1901,9 +1902,9 @@ a.object-action-buy {
   justify-content: center;
   width: 510px;
   min-height: 20px;
-  margin-bottom: 73px;
+  margin-bottom: 77px;
   margin-left: 72px;
-  padding: 25px 125px;
+  padding: 23px 125px;
   list-style: none;
   font-size: 0;
   text-align: center;
@@ -1927,11 +1928,16 @@ li.catalog-nav-next,li.catalog-nav-prev {
 li.catalog-nav-prev {
   left: 0;
   text-align: center;
+  margin-top: 23px;
+  margin-left: 2px;
 }
 
 li.catalog-nav-next {
   right: 0;
   text-align: left;
+  margin-top: 23px;
+  margin-left: 2px;
+
 }
 
 .catalog-nav a {
