@@ -37,7 +37,7 @@ body {
   font-style: normal;
 }
 
-body>input[type=radio] {
+.radio-button {
   display: none
 }
 
@@ -175,14 +175,14 @@ img {
 }
 
 .user-block a {
-    position: relative;
-    float: right;
-    margin-left: 37px;
-    padding-left: 26px;
-    line-height: 36px;
-    color: #000000;
-    text-decoration: none;
-    letter-spacing: 0.2px;
+  position: relative;
+  float: right;
+  margin-left: 37px;
+  padding-left: 26px;
+  line-height: 36px;
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 0.2px;
 }
 
 a.enter,a.exit {
@@ -305,6 +305,7 @@ a.exit.header {
   width: 120px;
   margin-left: 28px;
 }
+
 .main-catalog>li:last-of-type {
   width: 120px;
   margin-right: -1px;
@@ -1112,7 +1113,7 @@ a.exit.header {
   position: relative;
   margin-left: 35px;
   padding-left: 25px;
-  color: rgba(255,255,255,.7);
+  color: rgba(255,255,255,0.7);
   text-decoration: none;
 }
 
@@ -1350,7 +1351,6 @@ a.exit.header {
 
 .modal-show {
   display: flex;
-
   animation: bounce 0.6s;
 }
 
@@ -1405,7 +1405,7 @@ a.exit.header {
   line-height: 1.71;
   letter-spacing: 0.1px;
   word-spacing: 0.1px;
-  }
+}
 
 .breadscrumbs li::after {
   content: "";
@@ -1546,11 +1546,11 @@ a.exit.header {
   left: 6px;
   width: 11px;
   height: 10px;
-  }
+}
 
 .catalog-sort .btn-up::before {
-    left: 17px;
-  }
+  left: 17px;
+}
 
 .catalog-sort .btn-down::before {
   background-image: url(../img/icon-down-dir.svg);
@@ -1936,7 +1936,6 @@ li.catalog-nav-next {
   text-align: left;
   margin-top: 23px;
   margin-left: 2px;
-
 }
 
 .catalog-nav a {
